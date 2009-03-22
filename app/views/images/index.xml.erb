@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gallery>
-  <album id="ssp" lgPath="<%= large_image_url('') %>" tnPath="/images/thumbnail" title="Inspirational Images"><% for image in @images %>
+  <album id="ssp" lgPath="<%= large_image_url('') %>" title="Inspirational Images"><% for image in @images %>
     <img src="<%= image.id %>" title="" caption="" link="<%= large_image_url(image) %>" target="_blank" pause="" vidpreview="" />
   <% end %></album>
 </gallery>
